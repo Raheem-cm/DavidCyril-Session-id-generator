@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function GIFTED_MD_PAIR_CODE() {
+        async function GIFTED_TECH_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -56,27 +56,27 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
-               let GIFTED_MD_TEXT = `
-*_Pair Code Connected by ZENITSU*
+               let GIFTED_TECH_TEXT = `
+*_Pair Code Connected by SKIDDY05*
 *_Made With 🚬🗿_*
 ______________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN ZENITSU CRASH V2 』*
+║ *『 AMAZING YOU'VE CHOSEN IT-TECH-BRO-S 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _https://www.youtube.com/@BTSMODZ
-║❒ *Owner:* https://wa.me/2348075952205_
-║❒ *Repo:* _https://github.com/Fearless-tech1_
-║❒ *WaGroup:* _https://chat.whatsapp.com/C3GFThC0tIpGaJY9DFUeCK
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VahusSh0QeaoFzHJCk2x
-║❒ *Plugins:* _https://github.com/Fearless-tech1 
+║❒ *tiktok:* _https://tiktok.com/@skiddybmx_cmd_1
+║❒ *Owner:* https://wa.me/255741927849_
+║❒ *Repo:* _https://github.com/techbroh/IT-TECH-BRO-S-_
+║❒ *WaGroup:* _https://chat.whatsapp.com/BtxkX8ISmWF7JnJNZgw4xz
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vb5e33h96H4QYhiGIQ2V
+║❒ *Plugins:* _https://github.com/techbroh/IT-TECH-BRO-S-
 ╚════════════════════════╝
 _____________________________________
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_TECH_TEXT},{quoted:session})
  
 
         await delay(100);
@@ -95,6 +95,6 @@ _Don't Forget To Give Star To My Repo_`
          }
         }
     }
-    return await GIFTED_MD_PAIR_CODE()
+    return await GIFTED_TECH_PAIR_CODE()
 });
 module.exports = router
