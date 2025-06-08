@@ -34,7 +34,7 @@ router.get('/', async (req, res) => {
 			saveCreds
 		} = await useMultiFileAuthState('./temp/' + id)
 		try {
-			let Qr_Code_By_it_Tech = it_Tech({
+			let Qr_Code_By_it_Tech = raheem_cm({
 				auth: state,
 				printQRInTerminal: false,
 				logger: pino({
@@ -59,26 +59,26 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let TI_TECH_TEXT = `
-*_Session Connected By SKIDDY05*
+*_Session Connected By RAHEEM*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN IT-TECH-BRO-S 』*
+║ *『 AMAZING YOU'VE CHOSEN RAHEEM-XMD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *tiktok:* _tiktok.com/@skiddybmx_cmd_1
-║❒ *Owner:* https://wa.me/255741927849_
-║❒ *Repo:* _https://github.com/techbroh/IT-TECH-BRO-S-_
-║❒ *WaGroup:* _https://chat.whatsapp.com/BtxkX8ISmWF7JnJNZgw4xz
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vb5e33h96H4QYhiGIQ2V
-║❒ *Plugins:* _https://github.com/techbroh/IT-TECH-BRO-S- 
+║❒ *tiktok:* https://www.tiktok.com/@mohamedbinhuzaifa?_t=ZM-8x1vYx9obmo&_r=1
+║❒ *Owner:* https://wa.me/255763111390_
+║❒ *Repo:* _https://github.com/Raheem-cm/RAHEEM-XMD 
+║❒ *WaGroup:* _https://chat.whatsapp.com/Jp08rEdDmao1CvCOLH2KTT
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r
+║❒ *Plugins:* _https://github.com/Raheem-cm/RAHEEM-XMD 
 ╚════════════════════════╝
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
-	 await Qr_Code_By_it_Tech.sendMessage(Qr_Code_By_it_Tech.user.id,{text:IT_TECH_TEXT},{quoted:session})
+	 await Qr_Code_By_raheem_cm.sendMessage(Qr_Code_By_it_Tech.user.id,{text:RAHEEM_CM_TEXT},{quoted:session})
 
 
 
@@ -87,7 +87,7 @@ _Don't Forget To Give Star To My Repo_`
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
-					IT_TECH_QR_CODE();
+					RAHEEM_CM_QR_CODE();
 				}
 			});
 		} catch (err) {
@@ -100,6 +100,6 @@ _Don't Forget To Give Star To My Repo_`
 			await removeFile("temp/" + id);
 		}
 	}
-	return await IT_TECH_QR_CODE()
+	return await RAHEEM_CM_QR_CODE()
 });
 module.exports = router
