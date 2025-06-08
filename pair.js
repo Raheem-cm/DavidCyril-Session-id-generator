@@ -26,7 +26,7 @@ router.get('/', async (req, res) => {
             saveCreds
         } = await useMultiFileAuthState('./temp/'+id)
      try {
-            let Pair_Code_By_Gifted_Tech = Gifted_Tech({
+            let Pair_Code_By_Raheem_cm = Raheem_cm({
                 auth: {
                     creds: state.creds,
                     keys: makeCacheableSignalKeyStore(state.keys, pino({level: "fatal"}).child({level: "fatal"})),
@@ -57,20 +57,20 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_TECH_TEXT = `
-*_Pair Code Connected by SKIDDY05*
+*_Pair Code Connected by RAHEEM*
 *_Made With 🚬🗿_*
 ______________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN IT-TECH-BRO-S 』*
+║ *『 AMAZING YOU'VE CHOSEN RAHEEM-XMD』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *tiktok:* _https://tiktok.com/@skiddybmx_cmd_1
-║❒ *Owner:* https://wa.me/255741927849_
-║❒ *Repo:* _https://github.com/techbroh/IT-TECH-BRO-S-_
-║❒ *WaGroup:* _https://chat.whatsapp.com/BtxkX8ISmWF7JnJNZgw4xz
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vb5e33h96H4QYhiGIQ2V
+║❒ *tiktok:* _https://www.tiktok.com/@mohamedbinhuzaifa?_t=ZM-8x1vYx9obmo&_r=1
+║❒ *Owner:* https://wa.me/255763111390_
+║❒ *Repo:* _https://github.com/Raheem-cm/RAHEEM-XMD 
+║❒ *WaGroup:* _https://chat.whatsapp.com/Jp08rEdDmao1CvCOLH2KTT
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r
 ║❒ *Plugins:* _https://github.com/techbroh/IT-TECH-BRO-S-
 ╚════════════════════════╝
 _____________________________________
@@ -84,7 +84,7 @@ _Don't Forget To Give Star To My Repo_`
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
-                    GIFTED_MD_PAIR_CODE();
+                    RAHEEM_XMD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -95,6 +95,6 @@ _Don't Forget To Give Star To My Repo_`
          }
         }
     }
-    return await GIFTED_TECH_PAIR_CODE()
+    return await RAHEEM_CM_PAIR_CODE()
 });
 module.exports = router
